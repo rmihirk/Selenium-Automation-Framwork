@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listenecr class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="listenerPages.testlistener" />
+	</listeners>
+
+	<test name="Regression suite 2">
+		<classes>
+			<class name="testobject.TC_00" />
+		</classes>
+	</test>
+
+
+</suite>
